@@ -1,0 +1,41 @@
+ul{
+    width: 100%;
+    background-color: #FFF;
+    color: #555;
+    overflow: hidden;
+}
+ul li{
+    width: 100%;
+    border: solid 1px #C6E2FF;
+    box-sizing: border-box;
+    padding: 1vw 2vw;
+    font-size: 3.8vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2vw 0;
+    background-color: #ECF5FF;
+    border-radius: 1vw;
+}
+ul li div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li div:first-child{
+    flex: 2;
+}
+ul li div i{
+    display: block;
+    box-sizing: border-box;
+    padding: 1.5vw 2vw;
+    font-size: 3.2vw;
+    font-weight: 700;
+    border-radius: 1vw;
+    color: #FFF;
+    margin-right: 2vw;
+    background-color: red;
+    font-style: normal;
+}

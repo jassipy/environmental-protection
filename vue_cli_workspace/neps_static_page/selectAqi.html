@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./framework/reset.css">
+    <link rel="stylesheet" href="./framework/common.css">
+    <link rel="stylesheet" href="./css/selectAqi.css">
+    <title>东软环保公众监督系统-公众监督员端-空气质量描述和预估AQI</title>
+</head>
+
+<body>
+    <!-- 总容器 -->
+    <div class="wrapper">
+        <div class="header-box">
+            <header>
+                <i class="fa fa-angle-left" onclick="history.go(-1)"></i>
+                <p>选择AQI</p>
+                <i class="fa fa-th" onclick="location.href='selectGrid.html'"></i>
+            </header>
+            <div class="top-ban"></div>
+        </div>
+
+        <table border="1">
+            <tr>
+                <td>一</td>
+                <td>优</td>
+                <td>空气质量令人满意，基本无空气污染</td>
+            </tr>
+            <tr>
+                <td>二</td>
+                <td>良</td>
+                <td>空气质量可接受，但某些污染物口能对极少数异常敏感人群健康有较弱影响</td>
+            </tr>
+            <tr>
+                <td>三</td>
+                <td>轻度污染</td>
+                <td>易感人群症状有轻度加剧，健康人群出现刺激症状</td>
+            </tr>
+            <tr>
+                <td>四</td>
+                <td>中度污染</td>
+                <td>进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响</td>
+            </tr>
+            <tr>
+                <td>五</td>
+                <td>重度污染</td>
+                <td>心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状</td>
+            </tr>
+            <tr>
+                <td>六</td>
+                <td>严重污染</td>
+                <td>健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病</td>
+            </tr>
+        </table>
+        <div class="aqi-box">
+            <h4>请预估当前空气质量指数等级：</h4>
+            <ul>
+                <li>
+                    <div style="background-color: #02E300;">一</div>
+                    <input type="radio" checked>
+                </li>
+                <li>
+                    <div style="background-color: #FFFF00;">二</div>
+                    <input type="radio">
+                </li>
+                <li>
+                    <div style="background-color: #FF7E00;">三</div>
+                    <input type="radio">
+                </li>
+                <li>
+                    <div style="background-color: #FE0000;">四</div>
+                    <input type="radio">
+                </li>
+                <li>
+                    <div style="background-color: #98004B;">五</div>
+                    <input type="radio">
+                </li>
+                <li>
+                    <div style="background-color: #7E0123;">六</div>
+                    <input type="radio">
+                </li>
+            </ul>
+            <h4>请填写反馈信息：</h4>
+            <textarea placeholder="请填写反馈信息"></textarea>
+            <div class="btn" onclick="location.href='feedbackList.html'">提交</div>
+        </div>
+    </div>
+</body>
+
+</html>

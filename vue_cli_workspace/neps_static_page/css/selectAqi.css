@@ -1,0 +1,64 @@
+/************************ 表格样式 ************************/
+table{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-color: #E4E6E9;
+    font-size: 4vw;
+    color: #444;
+    font-weight: 700;
+    margin-top: 6vw;
+}
+table tr td{
+    box-sizing: border-box;
+    padding: 1.4vw;
+    background-color: #F5F7FA;
+}
+table tr td:first-child{
+    width: 10vw;
+    text-align: center;
+}
+table tr td:last-child{
+    background-color: #FFF;
+    font-weight: 300;
+    font-size: 3.6vw;
+}
+/************************ 预估AQI样式 ************************/
+.aqi-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.aqi-box h4{
+    color: #444;
+    margin: 5vw 0 2vw 0;
+}
+.aqi-box ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aqi-box ul li{
+    display: flex;
+    align-items: center;
+}
+.aqi-box ul li div{
+    box-sizing: border-box;
+    padding: 1vw 2vw;
+    background-color: red;
+    font-size: 3.2vw;
+    font-weight: 700;
+    border-radius: 1vw;
+}
+.aqi-box ul li input{
+    margin-right: 2vw;
+}
+.aqi-box textarea{
+    width: 100%;
+    height: 20vw;
+    border: none;
+    outline: none;
+    border: solid 1px #999;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    padding: 2vw;
+}

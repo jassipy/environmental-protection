@@ -1,0 +1,20 @@
+# 服务器相关内容
+server:
+  port: 8080
+  servlet:
+    context-path: /nepm
+# 日志输出级别
+logging:
+  level:
+    com.neusoft.nepm.mapper: debug
+# 数据源的配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/nep?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: "111111"
+# MP
+mybatis-plus:
+  mapper-locations: classpath:com/neusoft/nepm/mapper/*.xml
+  type-aliases-package: com.neusoft.nepm.po

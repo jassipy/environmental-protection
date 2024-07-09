@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./framework/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./framework/reset.css">
+    <link rel="stylesheet" href="./framework/common.css">
+    <title>东软环保公众监督系统-公众监督员端-选择网格</title>
+</head>
+<body>
+    <!-- 总容器 -->
+    <div class="wrapper">
+        <div class="header-box">
+            <header>
+                <i class="fa fa-angle-left" onclick="history.go(-1)"></i>
+                <p>选择网格</p>
+                <i class="fa fa-bars" onclick="location.href='feedbackList.html'"></i>
+            </header>
+            <div class="top-ban"></div>
+            <img src="./img/header.png">
+        </div>
+
+        <table class="table-form">
+            <tr>
+                <td>所在省</td>
+                <td>
+                    <select>
+                        <option value="1">辽宁省</option>
+                        <option value="2">北京市</option>
+                        <option value="3">河北省</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>所在市</td>
+                <td>
+                    <select>
+                        <option value="1">沈阳市</option>
+                        <option value="2">北京市</option>
+                        <option value="3">石家庄市</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>地址</td>
+                <td><input type="text" placeholder="具体地址"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="btn" onclick="location.href='selectAqi.html'">下一步</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
